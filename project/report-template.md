@@ -23,11 +23,10 @@ It didn't improve it much. I rank the hyperparameter model 2nd after the 'dateti
 I would definately spend more time on the hyperparameters and how I can try to tweak with them so that I can improve the model's prediction.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|hpo1|hpo2|hpo3|score|
-|--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+model	hpo1	hpo2	hpo3	score
+0	initial	default_vals	default_vals	default_vals	1.79941
+1	add_features	default_vals	default_vals	default_vals	0.64211
+2	hpo	GBM: num_leaves: lower=26, upper=66	NN: dropout_prob: 0.0, 0.5	GBM: num_boost_round: 100	0.48523
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 ![model_train_score.png](img/model_train_score.png)
